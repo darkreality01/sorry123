@@ -1,0 +1,45 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  text-align: center;
+  overflow-x: hidden;
+}
+.container {
+  padding: 20px;
+}
+h1 {
+  color: #d62828;
+  font-size: 2.5rem;
+}
+.message {
+  font-size: 1.3rem;
+  margin: 20px auto;
+  max-width: 600px;
+  color: #333;
+}
+.photo {
+  max-width: 90%;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(255, 0, 100, 0.4);
+  margin: 20px 0;
+}
+.buttons button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  margin: 10px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#yesBtn {
+  background-color: #28a745;
+  color: white;
+}
+#noBtn {
+  background-color: #dc3545;
+  color: white;
+  position: relative;
+}
